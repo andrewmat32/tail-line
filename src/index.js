@@ -8,7 +8,7 @@ document.addEventListener( "DOMContentLoaded", () =>
         button.addEventListener( "click", () =>
         {
             tabButtons.forEach( ( btn ) => btn.classList.remove( "active-tab", "text-blue-500", "border-blue-500" ) );
-            tabButtons.forEach( ( btn ) => btn.classList.add( "border-transparent" ) );
+            tabButtons.forEach( ( btn ) => btn.classList.add( "border-transparent", "text-gray-600" ) );
             tabPanes.forEach( ( pane ) => pane.classList.add( "hidden" ) );
 
             button.classList.remove( "border-transparent", "text-gray-600" );
